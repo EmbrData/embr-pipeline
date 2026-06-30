@@ -1,0 +1,9 @@
+# Python 3.9–3.12 required (MediaPipe has no 3.13/3.14 wheels)
+mediapipe>=0.10.18      # 3D hand landmarks (overlay)
+opencv-python>=4.9      # image/video I/O
+pillow>=10.0            # overlay drawing
+numpy>=1.24
+imageio-ffmpeg>=0.5     # bundled ffmpeg (preprocess / encode)
+requests>=2.31          # Qwen3-VL judge HTTP client (benchmark)
+matplotlib>=3.8         # benchmark charts
+tqdm>=4.66

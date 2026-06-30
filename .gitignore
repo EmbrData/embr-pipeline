@@ -1,0 +1,30 @@
+# --- raw / proprietary data: NEVER commit ---
+clips/
+*.MOV
+*.mov
+*.zip
+
+# --- generated intermediates ---
+processed/
+seg/
+seg[0-9]*/
+seg_out/
+montage/
+sample_frames/
+frames/
+bench/frames/
+bench/ref/
+eval_out/
+cache.sqlite
+*_scan.jpg
+
+# --- model weights (download via setup.sh) ---
+models/*.task
+
+# --- python / os ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.env
